@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "mfcc_kissfft.cpp"
+    INCLUDE_DIRS
+        "."
+    PRIV_REQUIRES
+        kissfft
+        esp_dsp
+)

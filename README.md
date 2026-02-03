@@ -131,7 +131,6 @@ I (608) TSHM_DEVICE: Asset Frame 2/161 time: 1190 us | Predicted id=0 logit=19.1
 
 5. **Repro project**: include a `Makefile` or `idf.py` build script that points to the exact `sdkconfig` and build flags you used.
 
-6. **Resume/Company sell points**: put measured metrics (params, frame latency, on-device learning cost, flash size) and link to the GitHub demo, plus a short note: “weights available on request”.
 
 ---
 

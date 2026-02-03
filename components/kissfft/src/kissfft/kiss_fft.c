@@ -4,7 +4,7 @@
  * Minimal version for building kiss_fft and kiss_fftr.
  *
  * Original KissFFT by Mark Borgerding - http://github.com/mborgerding/kissfft
- * License: BSD/MIT style. Use freely.
+ * License: BSD/MIT style.
  */
 
 #ifndef KISS_FFT_H

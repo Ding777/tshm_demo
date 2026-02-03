@@ -41,7 +41,7 @@ The `builds/hello_world.bin` attached to the GitHub Release is provided **only**
 * Typical memory allocation pattern (PSRAM/internal RAM usage and scratch buffer scheme).
 * End-to-end demo flow (embedding → streaming forward_step → head logits → optional on-device head SGD).
 
-**It is NOT intended to be the production weight file**. If you want the original (FP32) exported weights, or the training checkpoints that produced the weights, I will provide them on request (see below). The demo binary uses exported assets/weights chosen to make the demo self-contained and reproducible.
+**It is NOT intended to be the final trained production weight file**. If you want the original (FP32) exported weights, or the training checkpoints that produced the weights, I will provide them on request (see below). The demo uses exported assets/weights chosen to make the demo self-contained and reproducible.
 
 ---
 

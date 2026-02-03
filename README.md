@@ -140,7 +140,6 @@ If you (or a company) want the original (FP32) weights or the training checkpoin
 
 * **Preferred:** open a GitHub Issue in this repo with the subject `Request: FP32 weights / training checkpoint` and provide your contact email or GitHub account; I will reply with a private link or instructions.
 
-(If you are the repo owner, change this section to the contact method you prefer — e.g., direct download link on request, or add weights to Releases under a restricted access method.)
 
 ---
 

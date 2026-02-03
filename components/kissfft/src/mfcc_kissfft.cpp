@@ -5,7 +5,7 @@
 
 
 // Minimal placeholder MFCC: normalized log energy repeated to fill mfcc_dim.
-// This compiles and runs for testing. Replace with KissFFT-based implementation later.
+// This compiles and runs for testing. 
 bool mfcc_compute_from_pcm(const int16_t* pcm_samples, int pcm_len, float* mfcc_out, int mfcc_dim, int sample_rate) {
     if (!pcm_samples || pcm_len <= 0 || !mfcc_out || mfcc_dim <= 0) return false;
     double energy = 1e-9;

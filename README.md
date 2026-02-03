@@ -68,8 +68,8 @@ The `builds/hello_world.bin` attached to the GitHub Release is provided **only**
 
 ```bash
 # clone
-git clone https://github.com/<you>/tshm-esp-demo.git
-cd tshm-esp-demo/firmware
+git clone https://github.com/Ding777/tshm_demo.git
+cd tshm_demo
 
 # source esp-idf environment (example)
 . $IDF_PATH/export.sh

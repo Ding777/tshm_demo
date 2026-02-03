@@ -139,7 +139,6 @@ I (608) TSHM_DEVICE: Asset Frame 2/161 time: 1190 us | Predicted id=0 logit=19.1
 If you (or a company) want the original (FP32) weights or the training checkpoint:
 
 * **Preferred:** open a GitHub Issue in this repo with the subject `Request: FP32 weights / training checkpoint` and provide your contact email or GitHub account; I will reply with a private link or instructions.
-* **Alternative:** send an email to `<your-email-here>` (replace with desired contact) — if you want me to prepare a private transfer, mention the project and intended use.
 
 (If you are the repo owner, change this section to the contact method you prefer — e.g., direct download link on request, or add weights to Releases under a restricted access method.)
 

@@ -9,7 +9,6 @@ static float hann_window_sum = -1.0f;
 
 void compute_mfcc_from_pcm_kissfft(const int16_t* pcm, int pcm_len, float* out, int out_dim) {
     // Very small placeholder MFCC-like routine using magnitude spectrum energy mapped to out_dim bands.
-    // NOT a production MFCC — replace this with a real MFCC using mel filters + DCT for accuracy.
     if (pcm_len <= 0 || out_dim <= 0) {
         for (int i=0;i<out_dim;i++) out[i] = 0.0f;
         return;

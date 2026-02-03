@@ -154,11 +154,6 @@ python3 python/parse_serial.py serial.log
 
 This removes ambiguity over whether the printed microseconds are per-frame or per-N-frames.
 
----
 
-## License & attribution
-
-* Include a LICENSE (MIT recommended) and a short contributor note if needed.
-* If you derived TSHM from prior research or others’ code, add an acknowledgements section.
 
 

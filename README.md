@@ -53,7 +53,6 @@ The `builds/hello_world.bin` attached to the GitHub Release is provided **only**
 * **Head-only on-device SGD:** example demo applied 10 SGD updates in **~1,217 µs total** → ~**122 µs per update** (very cheap because only the head is updated).
 * **Dataset accuracy (example training):** e.g. **~0.876** on SC-10 evaluation.
 
-> Put your exact measured numbers and environment (chip, IDF version, compile flags) into `docs/results.md` for reproducibility.
 
 ---
 

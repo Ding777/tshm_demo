@@ -1,7 +1,7 @@
 # TSHM — ESP32 Demo (README)
 
 **Short:** This repository demonstrates *runtime behavior* of the TSHM streaming model on an ESP32 device: real-time streaming **inference** and **on-device head-only learning (SGD)**.
-**Important:** The `builds/hello_world.bin` included in Releases is a **demonstration binary** showing runtime metrics (latency, memory pattern, on-device SGD time) using *example/exported* weights. The *true/full* weight files (production or unquantized FP32 weights) are **not** included in the public binary — they can be provided privately on request (see “Requesting true weights” below).
+**Important:** The `builds/hello_world.bin` included in Releases is a **production or unquantized FP32 weights** showing runtime metrics (latency, memory pattern, on-device SGD time) using *example/exported* weights. The *true/full* weight files are **not** included in the public binary — they can be provided privately on request (see “Requesting true weights” below).
 
 > Why? many companies or projects want to publish a reproducible runtime demo but keep trained weights private or distribute them on request. This README explains how to reproduce the runtime, what the demo binary shows, and how to request the full weights.
 

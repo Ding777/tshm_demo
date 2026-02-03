@@ -51,7 +51,7 @@ The `builds/hello_world.bin` attached to the GitHub Release is provided **only**
 * **Weights stored (quantized INT8):** ~**~7.5 KB** (INT8) — or **~29 KB** if stored as full FP32 arrays (approx; depends on export).
 * **Per-frame inference latency (ESP32-S3 example):** typical log lines show **~1.1–1.4 ms** per frame (example `Asset Frame X time: 1186 us`).
 * **Head-only on-device SGD:** example demo applied 10 SGD updates in **~1,217 µs total** → ~**122 µs per update** (very cheap because only the head is updated).
-* **Dataset accuracy (example training):** e.g. **~0.876** on SC-10 evaluation (your training results; include your exact run details in `docs/results.md`).
+* **Dataset accuracy (example training):** e.g. **~0.876** on SC-10 evaluation.
 
 > Put your exact measured numbers and environment (chip, IDF version, compile flags) into `docs/results.md` for reproducibility.
 

@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-// Auto-generated file ¡ª do not edit by hand
+// Auto-generated file 
 // Quantized int8 weights + per-tensor scales
 
 static const int8_t encoder_embed_weight_q[1920] = {

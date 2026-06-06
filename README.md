@@ -82,7 +82,7 @@ idf.py set-target esp32s3
 idf.py build
 
 # flash & monitor
-idf.py -p /dev/ttyUSB0 flash monitor
+idf.py -p COM3 flash monitor
 ```
 
 ### Use prebuilt demo binary

@@ -151,6 +151,8 @@ Use the included parser to extract frame & SGD times and compute statistics. Exa
 idf.py -p /dev/ttyUSB0 monitor > serial.log
 python3 python/parse_serial.py serial.log
 ```
+Set-ExecutionPolicy -Scope Process Bypass
+.\export.ps1
 
 This removes ambiguity over whether the printed microseconds are per-frame or per-N-frames.
 

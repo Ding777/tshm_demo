@@ -84,7 +84,8 @@ idf.py build
 # flash & monitor
 idf.py -p COM3 flash monitor
 ```
-
+Set-ExecutionPolicy -Scope Process Bypass
+.\export.ps1
 ### Use prebuilt demo binary
 
 * Download `builds/hello_world.bin` from the Release page.

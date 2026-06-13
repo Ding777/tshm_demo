@@ -1,7 +1,7 @@
 /*
   main.cpp
   Complete file — functions defined before app_main, i2s init uses memset + explicit fields.
-  Drop into: E:/esp/esp-idf/examples/get-started/hello_world/main/main.cpp
+
 */
 
 #include <cstdio>

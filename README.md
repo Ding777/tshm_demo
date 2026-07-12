@@ -11,7 +11,7 @@
 
 ```
 /
-├─ firmware/                       # ESP-IDF project (main.cpp or tshm_main.cpp, components/, CMakeLists)
+├─ tshm_demo/                       # ESP-IDF project (main.cpp or tshm_main.cpp, components/, CMakeLists)
 │  ├─ main/
 │  │  ├─ main.cpp                   # device demo (I2S/mfcc/tshm)
 │  ├─ components/

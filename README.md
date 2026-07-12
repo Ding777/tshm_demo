@@ -7,7 +7,7 @@
 
 ---
 
-## Repo layout (recommended)
+## Repo layout
 
 ```
 /
